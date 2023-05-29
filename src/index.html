@@ -6,21 +6,25 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <nav></nav>
+    <nav>
+        <img src="../img/alura_vector.png" alt="alura logo" class="logo">
+    </nav>
     <body>
         <main>
             <article>
                 <input type="text" placeholder="Ingrese el texto aquí">
                 <p>Solo letras minúsculas y sin acento</p>
                 <div>
-                    <button>Encriptar</button>
-                    <button>Desencriptar</button>
+                    <button type="submit" id="encriptar" class="btn-encriptar">Encriptar</button>
+                    <button type="submit" id="desencriptar" class="btn-desencriptar">Desencriptar</button>
                 </div>
             </article>
             <aside>
                 <!-- img--> 
-                <p>Ningún mensaje fue encontrado</p>
-                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                <img src="../img/Muñeco.png" alt="Muñeco buscando">
+                <p id="mensaje-secreto" class="mensaje_encriptado"></p>
+                <p id="sin-mensaje" class="sin_mensaje">Ningún mensaje fue encontrado</p>
+                <p id="ingresa-texto" class="ingresa_texto">Ingresa el texto que desees encriptar o desencriptar.</p>
             </aside>
         </main>
     </body>
