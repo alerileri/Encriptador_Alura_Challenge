@@ -1,6 +1,6 @@
-let mensaje = document.getElementById(mensaje).value
-console.log(mensaje)
+let valorMensaje = document.getElementById(mensaje).value;
+console.log(valorMensaje)
 
-document.getElementById("mensaje-encriptado").style.display = "none";
+const pantallaMensaje = document.getElementById("mensaje-encriptado").style.display = "none";
 
-document.getElementById("no-mensaje").style.display = "none";
+const pantallaNoMensaje = document.getElementById("no-mensaje").style.display = "none";

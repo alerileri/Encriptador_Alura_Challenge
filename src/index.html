@@ -15,14 +15,14 @@
     <body>
         <main>
 
-            <article>
+            <form>
                 <input type="text" id="mensaje" class="mensaje" placeholder="Ingrese el texto aquí">
                 <p>Solo letras minúsculas y sin acento</p>
                 <div>
-                    <button type="submit" id="encriptar" class="btn-encriptar">Encriptar</button>
-                    <button type="submit" id="desencriptar" class="btn-desencriptar">Desencriptar</button>
+                    <button type="button" id="encriptar" class="btn-encriptar">Encriptar</button>
+                    <button type="button" id="desencriptar" class="btn-desencriptar">Desencriptar</button>
                 </div>
-            </article>
+            </form>
 
             <aside id="mensaje-encriptado">
                 <textarea id="mensaje-secreto" class="mensaje_encriptado">
@@ -38,6 +38,8 @@
 
         </main>
         <footer>Desarrollado por @alerileri</footer>
+        <script src="index.js"></script>
+        <script src="encriptar.js"></script>
     </body>
 
 </html>
