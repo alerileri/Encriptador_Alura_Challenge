@@ -15,22 +15,21 @@
     <body>
         <main>
 
-            <form>
+            <form id="formulario-mensaje">
                 <input type="text" id="mensaje" class="mensaje" placeholder="Ingrese el texto aquí">
                 <p>Solo letras minúsculas y sin acento</p>
                 <div>
-                    <button type="button" id="encriptar" class="btn-encriptar">Encriptar</button>
-                    <button type="button" id="desencriptar" class="btn-desencriptar">Desencriptar</button>
+                    <button type="submit" id="encriptar" class="btn-encriptar">Encriptar</button>
+                    <button type="submit" id="desencriptar" class="btn-desencriptar">Desencriptar</button>
                 </div>
             </form>
 
             <aside id="mensaje-encriptado">
-                <textarea id="mensaje-secreto" class="mensaje_encriptado">
+                <textarea id="mensaje-secreto" class="mensaje-encriptado">
                 </textarea>
             </aside>
 
             <aside id="no-mensaje">
-                <!-- img--> 
                 <img src="../img/Muñeco.png" alt="Muñeco buscando">
                 <p id="sin-mensaje" class="sin_mensaje">Ningún mensaje fue encontrado</p>
                 <p id="ingresa-texto" class="ingresa_texto">Ingresa el texto que desees encriptar o desencriptar.</p>
@@ -38,8 +37,7 @@
 
         </main>
         <footer>Desarrollado por @alerileri</footer>
-        <script src="index.js"></script>
-        <script src="encriptar.js"></script>
+        <script src="index.js" type="module"></script>
     </body>
 
 </html>
