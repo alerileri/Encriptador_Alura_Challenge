@@ -3,3 +3,16 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
+
+header{
+    display: flex;
+}
+
+.logo {
+    overflow: visible;
+    height: 48px;
+    width: 32px;
+    margin-left: 16px;
+    margin-top: 24px;
+    min-width: 0;
+}
