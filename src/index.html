@@ -12,22 +12,22 @@
 
     <body>
         <header>
-            <img src="../img/alura_vector.png" alt="alura logo" class="logo"></header>
+            <img class="logo" src="../img/alura_vector.png" alt="alura logo">
+        </header>
         <main>
-
             <section>
                 <textarea class="text-area" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>
                 <div>
                     <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
                 </div>
                 <div class="botones">
-                    <button class="btn-encriptar">Encriptar</button>
-                    <button class="btn-desencriptar">Desencriptar</button>
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                 </div>
             </section>
 
             <section>
-                <textarea class="mensaje" cols="20"  rows="10"></textarea>
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
                 <div>
                     <button class="btn-copiar">Copiar</button>
                 </div>
@@ -43,8 +43,9 @@
             --> 
 
         </main>
-        <footer>Desarrollado por @alerileri</footer>
-        <script src="index.js" type="module"></script>
+        
+        <script src="script.js"></script>
+
     </body>
 
 </html>

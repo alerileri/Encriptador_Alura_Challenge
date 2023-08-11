@@ -63,6 +63,10 @@ main{
     width: 328px;
 }
 
+.btn-desencriptar{
+    cursor: pointer;
+}
+
 .btn-copiar{
     color: #0A3871;
     cursor: pointer;
@@ -73,4 +77,5 @@ main{
     margin-top: 402px;
     position: absolute;
     width: 336px;
+    cursor: pointer;
 }
