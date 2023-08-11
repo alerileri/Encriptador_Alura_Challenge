@@ -40,3 +40,9 @@ function desencriptar(stringDesencriptada){
     }
     return stringDesencriptada
 }
+
+function btnCopiar(){
+    let copyText = document.querySelector(".mensaje");
+    copyText.select();
+    navigator.clipboard.writeText(copyText.value);
+}
