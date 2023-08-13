@@ -4,9 +4,12 @@ const mensaje = document.querySelector(".mensaje");
 
 function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value)
+    const divCopiar = document.querySelector(".div-copiar");
+
     mensaje.value = textoEncriptado
     textArea.value = "";
     mensaje.style.backgroundImage = "none"
+    divCopiar.style.display = 'block';
 }
 
 function encriptar(stringEncriptada) {
@@ -24,8 +27,8 @@ function encriptar(stringEncriptada) {
 
 
 function btnDesencriptar() {
-    const textoEncriptado = desencriptar(textArea.value)
-    mensaje.value = textoEncriptado
+    const textoEncriptado = desencriptar(textArea.value);
+    mensaje.value = textoEncriptado;
     textArea.value="";
 }
 
