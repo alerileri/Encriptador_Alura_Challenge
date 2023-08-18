@@ -8,7 +8,7 @@ function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value)
     const divCopiar = document.querySelector(".div-copiar");
 
-    mensaje.value = textoEncriptado
+    mensaje.value = textoEncriptado;
     textArea.value = "";
     mensaje.style.backgroundImage = "none";
     ningunMensaje.style.display = "none";
